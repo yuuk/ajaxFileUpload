@@ -23,11 +23,11 @@
 ```
 
 #参数
-| 参数名         | 说明          | 
-| ------------- |:-------------:|
-| url      | 上传接口地址 |
-| fileInput      |   文件域DOM元素    |
-| formData | 上传时的附加参数 |
-| isMultiple | 是否开启多文件上传 |
-| autoUpload | 是否支持自动上传 |
-| uploadSuccess | 上传完毕的回调 |
+| 参数名        | 说明               | 默认值   |
+| ------------- | ------------------ | -------- |
+| url           | 上传接口地址       | null     |
+| fileInput     | 文件域DOM元素      | null     |
+| formData      | 上传时的附加参数   | Object   |
+| isMultiple    | 是否开启多文件上传 | false    |
+| autoUpload    | 是否支持自动上传   | false    |
+| uploadSuccess | 上传完毕的回调     | Function |
